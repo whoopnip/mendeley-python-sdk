@@ -1,10 +1,14 @@
+"""
+A fork which fixes the Mendeley Python SDK, as the original SDK broke due to fixed package requirements.
+"""
+
 import os
 import random
 import string
 
 from future.moves.urllib.parse import urlsplit
 
-from mendeley.auth import MendeleyClientCredentialsAuthenticator, \
+from mendeley2.auth import MendeleyClientCredentialsAuthenticator, \
     MendeleyAuthorizationCodeAuthenticator, \
     MendeleyImplicitGrantAuthenticator
 

@@ -1,5 +1,5 @@
-from mendeley.models.annotations import Annotation
-from mendeley.resources.base import GetByIdResource, ListResource
+from mendeley2.models.annotations import Annotation
+from mendeley2.resources.base import GetByIdResource, ListResource
 
 
 class Annotations(GetByIdResource, ListResource):

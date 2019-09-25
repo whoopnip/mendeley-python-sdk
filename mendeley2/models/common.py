@@ -1,6 +1,6 @@
 import arrow
 
-from mendeley.response import ResponseObject
+from mendeley2.response import ResponseObject
 
 
 class Discipline(ResponseObject):

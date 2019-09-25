@@ -1,4 +1,4 @@
-from mendeley.resources.base import ListResource, GetByIdResource
+from mendeley2.resources.base import ListResource, GetByIdResource
 
 
 class DocumentsBase(GetByIdResource, ListResource):

@@ -1,5 +1,5 @@
-from mendeley.models.base_documents import BaseDocument, BaseClientView, BaseBibView
-from mendeley.response import LazyResponseObject
+from mendeley2.models.base_documents import BaseDocument, BaseClientView, BaseBibView
+from mendeley2.response import LazyResponseObject
 
 
 class CatalogDocument(BaseDocument):

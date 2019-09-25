@@ -1,7 +1,7 @@
 import json
 import arrow
-from mendeley.models.common import BoundingBox, Color
-from mendeley.response import SessionResponseObject
+from mendeley2.models.common import BoundingBox, Color
+from mendeley2.response import SessionResponseObject
 
 
 class Annotation (SessionResponseObject):

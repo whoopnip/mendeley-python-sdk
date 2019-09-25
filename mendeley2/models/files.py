@@ -1,9 +1,9 @@
 import json
 import os
 import re
-from mendeley.models.annotations import Annotation
+from mendeley2.models.annotations import Annotation
 
-from mendeley.response import SessionResponseObject
+from mendeley2.response import SessionResponseObject
 
 
 class File(SessionResponseObject):

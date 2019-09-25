@@ -1,6 +1,6 @@
-from mendeley.models.groups import Group, GroupMember
+from mendeley2.models.groups import Group, GroupMember
 
-from mendeley.resources.base import ListResource, GetByIdResource
+from mendeley2.resources.base import ListResource, GetByIdResource
 
 
 class Groups(GetByIdResource, ListResource):

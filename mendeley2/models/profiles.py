@@ -1,7 +1,7 @@
 import arrow
 
-from mendeley.models.common import Discipline, Photo, Location, Education, Employment
-from mendeley.response import SessionResponseObject
+from mendeley2.models.common import Discipline, Photo, Location, Education, Employment
+from mendeley2.response import SessionResponseObject
 
 
 class Profile(SessionResponseObject):

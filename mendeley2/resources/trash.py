@@ -1,6 +1,6 @@
-from mendeley.models.documents import TrashAllDocument, TrashBibDocument, TrashClientDocument, TrashTagsDocument, \
+from mendeley2.models.documents import TrashAllDocument, TrashBibDocument, TrashClientDocument, TrashTagsDocument, \
     TrashDocument
-from mendeley.resources.base_documents import DocumentsBase
+from mendeley2.resources.base_documents import DocumentsBase
 
 
 class Trash(DocumentsBase):

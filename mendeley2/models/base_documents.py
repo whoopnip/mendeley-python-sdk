@@ -1,5 +1,5 @@
-from mendeley.models.common import Person
-from mendeley.response import SessionResponseObject
+from mendeley2.models.common import Person
+from mendeley2.response import SessionResponseObject
 
 
 class BaseDocument(SessionResponseObject):

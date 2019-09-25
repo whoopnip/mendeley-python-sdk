@@ -3,10 +3,10 @@ from mimetypes import guess_type
 from os.path import basename
 
 import arrow
-from mendeley.models.annotations import Annotation
+from mendeley2.models.annotations import Annotation
 
-from mendeley.models.base_documents import BaseDocument, BaseBibView, BaseClientView
-from mendeley.models.files import File
+from mendeley2.models.base_documents import BaseDocument, BaseBibView, BaseClientView
+from mendeley2.models.files import File
 
 
 class UserBaseDocument(BaseDocument):

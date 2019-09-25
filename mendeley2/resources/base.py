@@ -1,8 +1,8 @@
 from future.moves.urllib.parse import urlsplit, parse_qs, urlencode, urlunsplit
 from future.utils import iteritems
 
-from mendeley.pagination import Page
-from mendeley.response import LazyResponseObject
+from mendeley2.pagination import Page
+from mendeley2.response import LazyResponseObject
 
 
 class BaseResource(object):

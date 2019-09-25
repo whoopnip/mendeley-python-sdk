@@ -1,5 +1,5 @@
-from mendeley.models.profiles import Profile
-from mendeley.resources.base import GetByIdResource
+from mendeley2.models.profiles import Profile
+from mendeley2.resources.base import GetByIdResource
 
 
 class Profiles(GetByIdResource):

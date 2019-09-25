@@ -1,5 +1,5 @@
-from mendeley.models.files import File
-from mendeley.resources.base import ListResource
+from mendeley2.models.files import File
+from mendeley2.resources.base import ListResource
 
 
 class Files(ListResource):

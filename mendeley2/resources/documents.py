@@ -1,7 +1,7 @@
-from mendeley.exception import MendeleyException
-from mendeley.models.documents import *
-from mendeley.resources.base import add_query_params, ListResource
-from mendeley.resources.base_documents import DocumentsBase
+from mendeley2.exception import MendeleyException
+from mendeley2.models.documents import *
+from mendeley2.resources.base import add_query_params, ListResource
+from mendeley2.resources.base_documents import DocumentsBase
 
 
 class Documents(DocumentsBase):

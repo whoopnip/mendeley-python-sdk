@@ -1,8 +1,8 @@
 import arrow
 
-from mendeley.models.common import Photo
-from mendeley.models.profiles import Profile
-from mendeley.response import SessionResponseObject, LazyResponseObject
+from mendeley2.models.common import Photo
+from mendeley2.models.profiles import Profile
+from mendeley2.response import SessionResponseObject, LazyResponseObject
 
 
 class Group(SessionResponseObject):

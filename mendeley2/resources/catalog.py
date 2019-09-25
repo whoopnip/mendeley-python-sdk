@@ -1,6 +1,6 @@
-from mendeley.exception import MendeleyException
-from mendeley.models.catalog import *
-from mendeley.resources.base import add_query_params, ListResource, GetByIdResource
+from mendeley2.exception import MendeleyException
+from mendeley2.models.catalog import *
+from mendeley2.resources.base import add_query_params, ListResource, GetByIdResource
 
 
 class Catalog(GetByIdResource):
